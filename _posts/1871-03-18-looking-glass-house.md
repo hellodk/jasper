@@ -6,7 +6,7 @@ title: Looking-Glass house
 date: 1871-03-18 10:18:00
 tags: fiction
 subclass: 'post tag-fiction'
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/utilities/home_icon.png'
 author: lewis
 categories: lewis
 ---
