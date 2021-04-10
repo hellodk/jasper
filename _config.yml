@@ -7,14 +7,14 @@ paginate: 5
 language: 'en-uk'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'Curiosity is the most powerful thing you own'
+description: "A beautiful narrative written over an elegant publishing platform. The story begins here..."
 
-short_url: 'jekyller.github.io/jasper/'
-google_analytics: UA-69281367-1
-disqus: username
+short_url: 'https://hellodk.io/'
+google_analytics: UA-84547172-1
+disqus: hellodk
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+baseurl: /
 
 # Permalinks
 permalink: /:title
@@ -45,13 +45,13 @@ plugins: [jekyll-paginate]
 # or "master" otherwise
 safe: false
 lsi: false
-username: jekyller
-repo: jasper
+username: hellodk
+repo: hellodk.github.io
 branch: master
 relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://jekyller.github.io/jasper/
-source_url:  https://github.com/jekyller/jasper/
+destination: ../hellodk.github.io/
+production_url:  https://hellodk.github.io/ #https://hellodk.io
+source_url:      https://github.com/hellodk/
 
 exclude:
   - README.md
