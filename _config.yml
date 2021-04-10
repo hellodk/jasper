@@ -11,8 +11,8 @@ name: 'Curiosity is the most powerful thing you own'
 description: "A beautiful narrative written over an elegant publishing platform. The story begins here..."
 
 short_url: 'https://hellodk.io/'
-google_analytics: UA-84547172-1
-disqus: hellodk
+google_analytics: 'UA-84547172-1'
+disqus: 'hellodk'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
