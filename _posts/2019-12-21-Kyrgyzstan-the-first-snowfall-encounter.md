@@ -1,10 +1,10 @@
 ---
 layout: post
-cover: false
-navigation: true
+cover: assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_131022.jpg
+navigation: True
 title: The First Snowfall Encounter
 date: 2019-12-21 23:18:00
-tags: travel
+tags: travel photography
 subclass: 'post tag-travel'
 author: hellodk
 categories: hellodk
