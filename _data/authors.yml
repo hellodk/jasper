@@ -1,3 +1,11 @@
+dk:
+  username: hellodk
+  name: Deepak Gupta
+  location: Bangalore, India
+  url_full: http://jekyller.github.io/jasper/
+  url: jekyller.github.io/jasper
+  bio: A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and a friendly one, Casper.
+  assets: assets/images/casper.png
 casper:
   username: casper
   name: Casper McFadden

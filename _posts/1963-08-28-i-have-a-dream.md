@@ -6,7 +6,7 @@ title: I Have a Dream
 date: 1963-08-28 10:18:00
 tags: speeches
 subclass: 'post tag-speeches'
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/utilities/home_icon.png'
 author: martin
 categories: martin
 ---
