@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>https://hellodk.io/</title>
+   
+   <link></link>
+   <description>A beautiful narrative written over an elegant publishing platform. The story begins here...</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>The Road to Kingdom</title>
+	  <link>//the_road_to_a_kingdom</link>
+	  <author></author>
+	  <pubDate>2017-03-23T20:03:00+00:00</pubDate>
+	  <guid>//the_road_to_a_kingdom</guid>
+	  <description><![CDATA[
+	     <h4>Found somewhere on the media and definitely worth a read....</h4>
+
+<p>There was a road to a kingdom, it had a big piece of rock in the middle of the road. People would pass by, the horses would break their kneels and carts would get blocked, but nobody did anything.
+</p>
+
+<p>One fine day a girl was passing by carrying a caret of beers and she hit the rock really hard and fell. And you guessed it right, the casket fell down and all her brewed beer bottles fell down and broke, dust soaked it all and it was all gone. That was her family's last chance, they were hungry didn't have any money.
+</p>
+
+<p>She sat there and cried but she wondered why the rock was still there for it to hurt someone else. So she dug up the rock in the road with her hands till they bled, used everything she had to pull it out. It took hours and then when she was gonna fill it up, she saw there something else, a bag of gold. The king put that rock in the middle of the road because he knew the person who dug it out - who did something deserves a reward - deserve to have their life changed for the good forever!!
+</p>
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
