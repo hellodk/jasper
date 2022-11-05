@@ -1,26 +1,25 @@
 ---
 layout: post
-cover: false
 title: Getting started with Cassandra
-date:   2016-01-28 10:18:00
-tags: tutorials
-subclass: 'post tag-tutorials'
+date: 2016-01-28 10:18:00
+tags: devops databases
+subclass: 'post tag-devops'
 categories: 'dk'
 navigation: True
 logo: 'assets/images/utilities/home_icon.png'
 cover: 'assets/images/cassandra/astronaut_on_the_moon.jpg'
 ---
 
-<p>The Growth of Big Data - Big Data is one of the key forces driving the growth and popularity of NoSQL for business. The almost limitless array of data collection technologies ranging from simple online actions to point of sale systems to GPS tools to smartphones and tablets to sophisticated sensors – and many more – act as force multipliers for data growth.
-</p>
+The Growth of Big Data - Big Data is one of the key forces driving the growth and popularity of NoSQL for business. The almost limitless array of data collection technologies ranging from simple online actions to point of sale systems to GPS tools to smartphones and tablets to sophisticated sensors – and many more – act as force multipliers for data growth.
 
-In fact, one of the first reasons to use NoSQL is because you have a Big Data project to tackle. A Big Data project is normally typified by:
-<ol>
-  <li><i>High data velocity</i> – lots of data coming in very quickly, possibly from different locations.</li>
-  <li><i>Data variety</i> – storage of data that is structured, semi-structured and unstructured.</li>
-  <li><i>Data volume</i> – data that involves many terabytes or petabytes in size.     </li>
-  <li><i>Data complexity</i> – data that is stored and managed in different locations or data centers.</li>
-</ol>
+
+In fact, one of the first reasons to use NoSQL is because we have a Big Data project to tackle. A Big Data project is normally typified by:
+
+  - High data velocity – lots of data coming in very quickly, possibly from different locations.
+  - Data variety – storage of data that is structured, semi-structured and unstructured.
+  - Data volume – data that involves many terabytes or petabytes in size.  
+  - Data complexity – data that is stored and managed in different locations or data centers.
+
 
 <table style="width:100%">
   <caption>Comparison</caption>
@@ -46,15 +45,15 @@ In fact, one of the first reasons to use NoSQL is because you have a Big Data pr
   </tr>
 </table>
 
-<p>Cassandra is perfect for managing large amounts of structured, semi-structured, and unstructured data across multiple data centers and the cloud. Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers with no single point of failure, along with a powerful dynamic data model designed for maximum flexibility and fast response times. Built-for-scale architecture means that it is capable of handling petabytes of information and thousands of concurrent users/operations per second.</p>
+Cassandra is perfect for managing large amounts of structured, semi-structured, and unstructured data across multiple data centers and the cloud. Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers with no single point of failure, along with a powerful dynamic data model designed for maximum flexibility and fast response times. Built-for-scale architecture means that it is capable of handling petabytes of information and thousands of concurrent users/operations per second.
 
-<p>An apache Software Foundation project, Cassandra is column oriented database and is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra does not support joins or subqueries. Rather, Cassandra emphasizes denormalization through features like collections.</p>
+An apache Software Foundation project, Cassandra is column oriented database and is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra does not support joins or subqueries. Rather, Cassandra emphasizes denormalization through features like collections.
 
 Each node in a cluster can accept read and write requests, regardless of where the data is actually located in the cluster.
 
 When a node goes down, read/write requests can be served from other nodes in the network.
 
-<p>The key components of Cassandra are as follows:</p>
+The key components of Cassandra are as follows:
 1. <code>Node</code> − It is the place where data is stored.
 <br/>
 2. <code>Data center</code> − It is a collection of related nodes.
@@ -109,19 +108,19 @@ When a node goes down, read/write requests can be served from other nodes in the
 <br/>
 <br/>
 <h5><u>Upgrading:</u></h5>
-<p>To upgrade an existing cassandra installation, you can follow the below instructions:</p>
-<ol>
-<li><code>mkdir ~/cassandra_backup</code></li>
-<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup</code></li>
-<li><code>sudo vi /etc/cassandra/cassandra.yaml</code> and edit num_tokens to 1 and uncomment the initial_token and set it to 1</li>
-<li><code>nodetool upgradesstables</code></li>
-<li><code>nodetool drain</code></li>
-<li><code>sudo service cassandra stop</code></li>
-<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup_new</code></li>
-<li><code>sudo apt-get install cassandra=2.1.12</code></li>
-<li>Open the old and new cassandra.yaml files and diff them.</li>
-<li>Merge the diffs by hand, including the partitioner setting, from the old file into the new one.</li>
-<li>Do not use the default partitioner setting in the new cassandra.yaml because it has changed in this release to the Murmur3Partitioner. The Murmur3Partitioner can only be used for new clusters. After data has been added to the cluster, you cannot change the partitioner without reworking tables, which is not practical. Use your old partitioner setting in the new cassandra.yaml file.</li>
+To upgrade an existing cassandra installation, you can follow the below instructions:
+
+<li><code>mkdir ~/cassandra_backup</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup</code>
+<li><code>sudo vi /etc/cassandra/cassandra.yaml</code> and edit num_tokens to 1 and uncomment the initial_token and set it to 1
+<li><code>nodetool upgradesstables</code>
+<li><code>nodetool drain</code>
+<li><code>sudo service cassandra stop</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup_new</code>
+<li><code>sudo apt-get install cassandra=2.1.12</code>
+<li>Open the old and new cassandra.yaml files and diff them.
+<li>Merge the diffs by hand, including the partitioner setting, from the old file into the new one.
+<li>Do not use the default partitioner setting in the new cassandra.yaml because it has changed in this release to the Murmur3Partitioner. The Murmur3Partitioner can only be used for new clusters. After data has been added to the cluster, you cannot change the partitioner without reworking tables, which is not practical. Use your old partitioner setting in the new cassandra.yaml file.
 <li>Save the file as cassandra.yaml.
 <br/>Configuration file '/etc/cassandra/cassandra.yaml'
  ==> Modified (by you or by a script) since installation.
@@ -132,8 +131,8 @@ When a node goes down, read/write requests can be served from other nodes in the
       D     : show the differences between the versions
       Z     : start a shell to examine the situation
  The default action is to keep your current version.
-*** cassandra.yaml (Y/I/N/O/D/Z) [default=N] ? </li>
-</ol>
+*** cassandra.yaml (Y/I/N/O/D/Z) [default=N] ? 
+
 <h5>Inserting values into tables</h5>
 <code>CREATE KEYSPACE key_space WITH replication = {
   'class': 'NetworkTopologyStrategy',

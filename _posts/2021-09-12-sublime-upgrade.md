@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Upgrading Sublime Text
-date: 2021-09-02 22:48:00
+date: 2021-09-12 22:48:00
 tags: devops
 subclass: 'post tag-devops'
 author: hellodk
@@ -44,4 +44,3 @@ sudo rm -rf /opt/sublime_text_backup
 ```
 
 And we're done - Enjoy the new upgrade!!
-

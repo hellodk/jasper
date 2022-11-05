@@ -50,8 +50,8 @@ repo: hellodk.github.io
 branch: master
 relative_source: ../jasper/
 destination: ../hellodk.github.io/
-production_url:  https://hellodk.github.io/ #https://hellodk.io
-source_url:      https://github.com/hellodk/
+production_url: https://hellodk.github.io/ #https://hellodk.io
+source_url: https://github.com/hellodk/
 
 exclude:
   - README.md
