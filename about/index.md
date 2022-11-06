@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: post
 title: About
-navigation: true
 logo: 'assets/images/utilities/home_icon.png'
 current: about
+cover: 'assets/images/utilities/IMG_75751.JPG'
+date:   2015-12-28 10:18:00
+tags: about
+subclass: 'post tag-tutorials'
+categories: 'about'
+navigation: True
 ---
-
-This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.
-
-We use this for testing and for reference!
-
-If you'd like to set up your own blog, head on over to [https://ghost.org](https://ghost.org) and sign up.
+Too often we under-estimate the power of a touch, a smile, a kind word, a listening ear, an honest compliment, or the smallest act of caring, all of which have the potential to turn a life around. 
+The idea behind writing this blog/website is to connect to people and share my experiences with them.
