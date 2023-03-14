@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>https://hellodk.io/</title>
+   
+   <link></link>
+   <description>A beautiful narrative written over an elegant publishing platform. The story begins here...</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Upgrading Sublime Text</title>
+	  <link>//sublime-upgrade</link>
+	  <author></author>
+	  <pubDate>2021-09-12T22:48:00+00:00</pubDate>
+	  <guid>//sublime-upgrade</guid>
+	  <description><![CDATA[
+	     <h3 id="upgrade-your-sublime-text-with-the-below-steps">Upgrade your Sublime Text with the below steps</h3>
+<p><img src="assets/images/upgrade-sublime-text/sublime.jpeg" alt="" /></p>
+
+<h4 id="environment-details">Environment Details</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>OS Ubuntu-20.04
+</code></pre></div></div>
+
+<h6 id="from-the-sublime-official-website-download-the-64-bit-tarball">From the Sublime official website, download the 64-bit tarball</h6>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://download.sublimetext.com/sublime_text_build_4113_x64.tar.xz
+</code></pre></div></div>
+<p>You can point the URL to the latest available Sublime Text package.</p>
+
+<h6 id="backup-your-existing-sublime-installation">Backup your existing Sublime Installation</h6>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp</span> <span class="nt">-r</span> /opt/sublime_text/ /opt/sublime_text_backup
+</code></pre></div></div>
+
+<h6 id="copy-the-newly-downloaded-sublime-files">Copy the newly downloaded Sublime files</h6>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp</span> <span class="nt">-r</span> ~/Downloads/sublime_text_build_4113_x64/sublime_text /opt/
+</code></pre></div></div>
+
+<h6 id="remove-the-downloaded-files">Remove the downloaded files</h6>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">rm</span> <span class="nt">-rf</span> ~/Downloads/sublime_text_build_4113_x64 ~/Downloads/sublime_text_build_4113_x64.tar.xz
+</code></pre></div></div>
+
+<h6 id="remove-the-backup-after-a-few-days">Remove the backup after a few days</h6>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo rm</span> <span class="nt">-rf</span> /opt/sublime_text_backup
+</code></pre></div></div>
+
+<p>And we’re done - Enjoy the new upgrade!!</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The First Snowfall Encounter</title>
+	  <link>//Kyrgyzstan-the-first-snowfall-encounter</link>
+	  <author></author>
+	  <pubDate>2019-12-21T23:18:00+00:00</pubDate>
+	  <guid>//Kyrgyzstan-the-first-snowfall-encounter</guid>
+	  <description><![CDATA[
+	     <p>My first encounter with Snowfall was during my travel to Bishkek, the capital city of Kyrgystan. Kyrgystan is a beautiful landlocked country in Central Asia and my trip to Kyrgystan brought to me a whole new perspective.
+The cuisines were full of flavour(friends used to translate Russian food menu for me).
+Kyrgystan also hosts a lot of Indian students looking for a career in the medicine domain.
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191227_173428.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191225_224547.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191225_224535.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191225_224510.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191225_224456.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191225_083001.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191224_082857.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191223_172820.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191223_172803.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191223_134140.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_201944.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_201842.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_140438.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_140412.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_140358.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191222_093857.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_172532.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_172512.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_135930.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_131022.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191221_130941.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191220_234832.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191220_082957.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191220_082953.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191220_080003.jpg" alt="" />
+<img src="assets/images/the-first-snowfall-encounter/Kyrgyzstan/20191220_075956.jpg" alt="" /></p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

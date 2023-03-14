@@ -1,0 +1,1142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>https://hellodk.io/</title>
+   
+   <link></link>
+   <description>A beautiful narrative written over an elegant publishing platform. The story begins here...</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>My Resume Hosted</title>
+	  <link>//resume</link>
+	  <author></author>
+	  <pubDate>2020-07-08T00:00:00+00:00</pubDate>
+	  <guid>//resume</guid>
+	  <description><![CDATA[
+	     <!DOCTYPE html>
+<html>
+
+<style>
+.tab-1 {position:absolute;left:180px; }
+
+.tab-2 {position:absolute;left:300px; }
+
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+
+
+</style>
+
+<head>
+	<!-- Commented on 3rd June 2021 -->
+	<!--link rel="stylesheet" href="/assets/css/hr_tag.css" /-->
+	<title>Curriculum Vitae</title>
+</head>
+
+<body>
+
+<a href="/" class="home_icon">
+	<img src="/assets/images/utilities/home_icon.png" alt="Blog Logo" style="cursor: pointer;width: 40px; height: 40px;   float: right;" />
+</a>
+
+<h1 >Deepak Gupta</h1>
+<ul>
+	<li>
+		Email: <span class="tab-1">hello.dk@outlook.com
+	</li>
+	<li>
+		Blog: <span class="tab-1"><a href="https://www.hellodk.io" target="_blank">hellodk.io</a></li>
+	</li>
+  <li>Github: <span class="tab-1"><a href="https://github.com/hellodk" target="_blank">github.com/hellodk</a>
+  </li>
+  <li>LinkedIn: <span class="tab-1"><a href="https://www.linkedin.com/in/hellodk" target="_blank">linkedin.com/in/hellodk</a>
+  </li>
+  <li>Docker Hub: <span class="tab-1"><a href="https://hub.docker.com/r/hellodk" target="_blank">hub.docker.com/r/hellodk</a>
+  </li>
+  <li>
+  	Stackoverflow: <span class="tab-1"><a href="https://stackoverflow.com/users/2947885/hellodk" target="_blank">https://stackoverflow.com/users/2947885/hellodk</a>
+  </li>
+  </li>
+</ul>
+
+<hr class="bigHr">
+
+<h2>Work Experience:</h2>
+
+<ul>
+
+<li><h3>Lead DevSecOps Engineer, HDFC Bank, Bengaluru</h3></li>
+<h5>December 2021 - Present</h5>
+<p>
+HDFC Bank Limited is an Indian banking and financial services company headquartered in Mumbai. It is India's largest private sector bank by assets and world's 10th largest bank by market capitalisation as of April 2021. I am contributing to the below areas
+<ul>
+	<li>Defining secure CI/CD worlflow architecture(OSA, SAST, Container Trust Registry, DAST)</li>
+	<li>Writing IAAC</li>
+	<li>Detecting security issues with applications by Implementing Policy as a code</li>
+	<li>Monitoring systems with Prometheus, Grafana, Graphite, ELK</li>
+	<li>MLOps Implementation using kubeflow</li>
+	<li>Mobile CI CD Implementation for Android and iOS using Fastlane, Flutter, Bitrise.io</li>
+</ul>
+</p>
+
+<li><h3>SDE III, Play Games24x7, Bengaluru</h3></li>
+<h5>October 2020 - December 2021</h5>
+<p>
+Play Games24x7 is one of the fastest growing online gaming company in India and we are rapidly expanding over other continents.
+I've been contributing to this journey of success in the below areas
+<ul>
+	<li>Developing MLOps architecture/pipelines for our Data Science team</li>
+    <li>Running Spark Jobs over containerized environment using Kubeflow</li>
+    <li>Data Cleansing, EDA, Inference, Hyperparameter Tuning on Kubeflow</li>
+    <li>Spark Jobs internal metrics implementation with Graphite and Grafana</li>
+    <li>Jenkins pipelines for app deployments/rollbacks</li>
+    <li>Stable Kubernetes Cluster Autoscaling with Spot Instances</li>
+    <li>Service Mesh Implementation with Istio</li>
+    <li>Automated building of Docker images for Custom Spark Applications and Spark Operators</li>
+    <li>EKS maintenance(upgrade, monitoring, alerts etc.)</li>
+    <li>Microservices Network Flow Diagram using VPC flow logs and Neo4j - Allows birds eye view of the components and the costs involved</li>
+    <li>Implementing Monitoring Systems for k8s systems</li>
+    <li>Chaos Engineering Framework Development for k8s with Litmus Chaos</li>
+    <li>Sprint Planning and task distribution.</li>
+</ul>
+</p>
+
+<li><h3>DevOps Consultant/Trainer, Bengaluru</h3></li>
+<h5>June 2018 - September 2020</h5>
+<p>I've helped organisations adopt DevOps tooling/practices, scaling strategies & have delivered 200+ corporate trainings on DevOps tools across the globe to a broad set of audiences(Developers/Sysadmins, Freshers, Architects, CTO's, VP) with nearabout 95% success rate. My work at any usual day comprised of
+<ul>
+<li>Working on an Online Virtual Labs(running profitably)</li>
+<li>Active Development on Python</li>
+<li>Automation with Ansible</li>
+<li>Website content publishing on Heroku</li>
+<li>Google Analytics & Few SEO implementations</li>
+<li>Developing Scalable Automated Deployable Apps on k8s cluster</li>
+<li>Exploring new cloud solutions for my clients</li>
+<li>Managing SQL/NoSQL Databases(MySQL/MariaDB/Cassandra/Mongo)</li>
+</ul>
+</p>
+
+<li><h3>DevOps Lead - Moveinsync Technology, Bengaluru</h3></li>
+<h5>January 2018 - June 2018</h5>
+<p>Moveinsync is India's chief employee transportation management solution. I lead the DevOps team at Moveinsync to build & monitor a highly scalable multi-tenant application on cloud.
+	<ul>
+		<li>VAPT</li>
+		<li>Implementing DR across multiple AZ using Ansible</li>
+		<li>Securing ISO 27001 certicifation which helped us to secure more clients</li>
+	</ul>
+</p>
+
+<li><h3>Systems Engineer - Myntra Designs, Bengaluru</h3></li>
+<h5>June 2016 - January 2018</h5>
+<p>Myntra Designs is the biggest Indian fashion e-commerce organisation in India.
+I was a part of the sysadmin team and my responsibilites included
+<ul>
+	<li>managing 99.9999% uptime of infrastructure(Datacenter, AWS & Azure)</li>
+    <li>monitoring microservices API calls, revenue metrics, on-calls</li>
+    <li>Writing scalable internal tools on python and golang</li>
+    <li>Automating deployments and audits with Ansible</li>
+    <li>database maintenance etc.</li>
+    <li>PCI maintenance and audit</li>
+</p>
+</ul>
+
+<li><h3>DevOps Engineer - Knowlarity Communications, Bengaluru</h3></li>
+<h5>January 2015 - May 2016</h5>
+<p>Knowlarity Communications works on AI enabled cloud telephony. My primary responsibilities were to
+<ul>
+<li>Debian packaging of the applications</li>
+<li>Automate deployments using Ansible</li>
+<li>Maintaining RethinkDB databases - backup, recovery, scaling, sharding</li>
+<li>Writing custom tools and API's to scrub data upto 440 million records</li>
+<li>Implementing Billing framework model with Cassandra and ELK</li>
+<li>Creating grafana dashboards using statsd and graphite</li>
+<li>Maintaining rabbitmq clusters</li>
+</ul>
+</p>
+
+<li><h3>Project Engineer - Wipro Technologies, Bengaluru</h3></li>
+<h5>November 2011 - January 2015</h5>
+<p>Wipro Technologies is an Indian MNC providing IT consulting & services.
+I was primarily responsible for
+<ul>
+	<li>Writing applications in Java/CORBA for telecom OSS</li>
+	<li>Creating python API's for custom Openstack implementation</li>
+	<li>Monitoring Openstack with Zabbix</li>
+</ul></p>
+</br>
+</ul>
+
+<hr class="bigHr">
+<h2>Software Skills:</h2>
+<ul>
+<!---li>Programming: 	Python, Java, Golang, Nodejs, C(Agile/Kanban Methodology)</li>
+<li>Web Frameworks: Django, Spring Boot, Flask, Falcon, Spring Cloud</li>
+<li>Build Tools: Jenkins, Jira, Gerrit</li>
+<li>Cryptocurrency: Blockchain, Bitcoin, Ethereum, Hyperledger</li>
+<li>Load balancers: HA Proxy, Nginx</li>
+<li>CDN: Akamai, CloudFront, Cloudflare</li>
+<li>Web/App servers: Nginx, Apache, Gunicorn, uwsgi, tomcat</li>
+<li>Configuration Management: Ansible, Saltstack, Fabric, Puppet, Chef</li>
+<li>Protocols/ Architectures:	REST, CORBA, SNMP, HTTP, TCP/IP, SIP, Wireshark</li>
+<li>Cloud/ Virtualizations: AWS, Azure, Heroku, OpenStack, Vagrant, KVM, Docker</li>
+<li>Visualizations: Grafana, D3, Kibana, Talend</li>
+<li>Others: RaspberryPi, Spartan 3E, AVR, Elasticsearch, Induino, Arduino, MOSHELL, Debian Packaging, freeswitch, WCDMA, LTE, 3PP, NMS, EMS, FCAPS, RNC, RBS, Scribe, Logstash, Fluentd,heka</li--->
+<li>Programming:
+<ul>
+	<li>Present Proficiency: <span class="tab-2"> Python, Golang, Bash</li>
+	<li>Past Proficiency: <span class="tab-2"> Java, Golang, Rust, C</li>
+</ul>
+</li>
+<li>Cloud Computing: <span class="tab-2">  AWS, Azure, Heroku, Openstack</li>
+<li>Container Technologies: <span class="tab-2">  Docker, Kubernetes</li>
+<li>Monitoring Tools: <span class="tab-2">  Prometheus, Zabbix, Nagios, Sensu, Datadog, Icinga2</li>
+<li>SQL Databases: <span class="tab-2">  MySQL, MariaDB, PostgreSQL</li>
+<li>NoSQL Databases: <span class="tab-2">  MongoDB, Cassandra, Redis, DynamoDB, CouchDB</li>
+<li>Web Server/Load Balancers: <span class="tab-2">  Nginx, HA Proxy</li>
+<li>Messaging Tools: <span class="tab-2">  RabbitMQ, Kafka</li>
+<li>Configuration Management: <span class="tab-2">  Ansible, Terraform, Chef, Puppet</li>
+<li>Programming: <span class="tab-2">  Java, Python, Golang</span></li>
+<li>Visualizations: <span class="tab-2">  Grafana, D3, Kibana, Talend</li>
+<li>Log Management: <span class="tab-2"> Elasticsearch, Solr, Fluentd, Logstash</li>
+<li>Others: <span class="tab-2"> Litmus Chaos, Jenkins
+</ul>
+
+<hr class="bigHr">
+<h2>
+	Projects Summary:
+</h2>
+<ul>
+	<li><h3>Fulcrum</h3></li>
+	<p>I've worked independently on streamlining the ML flow for our organisation. Using kubeflow it has helped our ML Developers save a lot of time for running their jobs on Kubeflow and we do save cost as the entire setup is running on k8s, which itself is running on a autoscaled Spot Instance nodegroup.</p>
+
+<li><h3>Havoc</h3></li>
+<p>We used Litmus Chaos tool to test the scalability of our k8s cluaters, DNS lags etc. This was primaril helpful to understand how the infra would look like under stress.</p>
+
+<li><h3>Cylon</h3></li>
+<p>I've worked on this independently to bring up a virtual lab to be used by students during online trainings. It used to automatically build up a k8s cluster with support for VNC, SSH and RDP sessions for the participants.</p>
+
+<li><h3>Disaster Recovery</h3></li>
+<p>Creating DR infrastructure, requirement gathering and creation of Kubernetes cluster on bare metal servers and implementing the deployment pipelines - blue-green and canary
+Infrastructure & service monitoring, sending alerts over slack and SMS
+</p>
+
+<li>
+	<h3>Payments Service
+</h3>
+</li>
+<p>
+Create payments service for facilitating payments transactions using Java and Spring Boot and implementing analytics with Talend to monitor the payments/orders. Invoved in Sprint Planning, Requirement gathering, Architecture planning, writing unit test-cases, coding configuration of the cluster, managing shards/replicas of the payments database, coordinating UAT and SIT and load tests
+</p>
+
+<li>
+	<h3>Centralized Log Management
+</h3>
+</li>
+<p>
+To monitor logs centrally, we needed a powerful tool. Elasticsearch is what we choose for this project and developed on top of Java using Spring Cloud. Initiated the requirement gathering, created UML diagrams, architecture planning, automated deployment & configuration of the cluster, managing shards and the replicas for elasticsearch cluster, analytics on the data using talend
+</p>
+
+<li>
+	<h3>
+PCI Compliance
+</h3>
+</li>
+<p>
+Ensured the Payments setup is PCI DSS compliant by creating network segmentations for servers(DMZ environment) and implementing Intrusion Detection Systems(OSSEC/Alienvault) & patching(Spacewalk) the air gapped systems. Responsible for getting the VAPT(Vulnerability Assessment & Penetration Testing)
+</p>
+
+<li>
+	<h3>
+	Apollo
+</h3>
+</li>
+<p>
+App deployment via one click using Ansible, Docker and Kubernetes by  automatically creating templates for tasks using jinja2 templating systems and wrote executors, setting up Jenkins jobs etc.
+</p>
+
+<li>
+	<h3>
+Sethji:
+</h3>
+</li>
+<p>
+Track AWS/Azure Billing Charges
+Bill analysis using ETL & Setup the billing management stack on python and flask
+reduced billing costs by 25% by identifying overprovisioned/unused services etc.
+</p>
+
+<li>
+	<h3>
+	Graphite Grafana Integration
+</h3>
+</li>
+<p>
+monitor services, function calls, throughput, response code status, revenue etc.
+Requirement gathering, UML, coding, writing automation, configuration and deployment on Python
+</p>
+
+<li>
+<h3>
+	Monitoring Setup
+</h3>
+</li>
+<p>
+	Monitoring for complete Infrastructure
+Setup monitoring for our infrastructure(hybrid) over Icinga2/Zabbix and Talend
+Ensured High Availability of Services
+</p>
+
+<li><h3>Daily Operations - A usual day in the life of a DevOps</h3></li>
+<p>
+	<ul>
+<li>Developing tools over C++/Java/Python/Golang</br></li>
+<li>Security Audit - Implemented IDS, DDOS mitigation via fail2ban</br></li>
+<li>Packet tracing/filtering using customized tool & Wireshark</br></li>
+<li>Fixing security vulnerabilities in infrastructure</br></li>
+<li>Log Aggregation and Analytics using Elasticsearch/Solr/Kibana</br></li>
+<li>Implemented key rotation policy</br></li>
+<li>Implemented HA RabbitMQ cluster serving as a backbone for intercommunication between microservices(close to 400+ microservices) with 99.99999% SLA</br></li>
+<li>DNS, LDAP, Monitoring, Load Balancing over Nginx/HA Proxy</br></li>
+<li>Reduce data transfer costs & improved performance</br></li>
+<li>Subnet planning helped reduce the complexity of whitelisting services/IP’s</br></li>
+<li>Network planning for infrastructure migration</br></li>
+<li>Helped setup Azure account with basic services like DNS, LDAP, monitoring</br></li>
+</ul>
+</p>
+
+<li>
+	<h3>
+	Clickstream Analytics
+</h3>
+</li>
+<p>
+A single point to handle all clickstream data and do analytics on that
+Integrating the existing SQL databases with ETL(Talend) and creating dashboards
+Fine details like demography, geographic locations, time etc were extracted
+Used the analytics data to create recommendation engine
+</p>
+
+<li>
+<h3>
+	WRAN CM OSS-RC (Operational Support System – Radio & Core)
+</h3>
+</li>
+<p>
+OSS-RC is a comprehensive domain manager for network infrastructure deployed with operators around the world integrating and managing a wide range of network components. Together with IP and Broadband offering, it’s a comprehensive solution for total network management of the telecommunications infrastructure
+Design of OSSRC products, configuring network elements of OSS-RC using Spring/Java
+Sprint Planning, Requirement gathering, Implementation for new changes proposed, creating user stories
+followed Test Driven Development, Coordinating in SIT, UAT
+</p>
+<li>
+<h3>
+	Cloud Adapter
+</h3>
+</li>
+<p>
+Integrate cloud services with services on physical machines for centralized monitoring
+Set up the development environment, configurations, writing test cases using J-unit
+wrote authentication modules, schedulers, startup scripts, managing notifications on Java
+</p>
+<li>
+<h3>
+	Billing Framework
+</h3>
+</li>
+<p>
+The most challenging work for any organisation, taking care of different types of contracts etc.
+Created the Billing Framework using Python and Django
+</p>
+<li>
+<h3>
+	NDNC Deployment
+</h3>
+</li>
+<p>
+Being a telemarketer, we can call only to non-dnd registered numbers
+TRAI only provides dnd data in form of CSV(500 million rows)
+Challenge was to develop our own NDNC scrubbing solution and keep it updated using Spring Boot
+Requirement gathering, UML/flow diagrams getting the NDNC data, feeding the data into our database, writing API's, automated product deployment automation, performance tuning etc. using Python/Falcon and RethinkDB
+</p></ul>
+<hr class="bigHr">
+<h3>
+	Side Projects
+</h3>
+<ul>
+<p>
+<li>Developed several multiplayer games in Python, e.g. Stopwatch, Pong, Memory, Spaceship, Blackjack & Rice Rocks Full Game
+</li>
+</p>
+
+<p>
+<li>
+RTL design & Synthesis of a 32-bit Microprocessor using VHDL
+</li>
+Our goal was to design a 32-bit microprocessor in VHDL, which will perform arithmetic and logic function that is on a standard 32-bit microprocessor
+Target Device: Spartan 3E Tools
+Used: Xilinx 9.1, Modelsim SE 5.7f
+</p>
+
+<p>
+<li>
+Blockchain Signalling System
+</li>
+Used blockchain for Signalling DDOS attacks in a cooperative & distributed network defence
+</p>
+
+<p>
+<li>
+Real-time Bitcoin Price Monitor using Arduino
+</li>
+</p>
+
+<p>
+	<li>
+Decentralized fleet tracking with blockchain
+</li>
+Asset tracking mechanism in a decentralized fashion. Each action, event, alerts were stored in the blockchain
+</p>
+
+<p>
+<li>
+Developed an own cryptocurrency for testing purpose using Litecoin
+</li>
+</p>
+</ul>
+
+<hr class="bigHr">
+
+<h3>
+	Awards & Achievements:
+</h3>
+
+<ul>
+<li>Maestro Award for Making a Difference in the Account</li>
+<p>I was awarded for technically ramping up my team members in short span of time & making a difference in the Account</p>
+<li>High Flyer Award for individual contribution in the Account</li>
+<p>I was awarded for my role as an Individual Contributor in the team</p>
+</ul>
+
+<hr class="bigHr">
+
+<h3>
+Certifications:
+</h3>
+
+<ul>
+	<p>
+		<li><a href="https://academy.datastax.com/certs/lookup/2303fe2a-eecb-4db2-abd4-274e17160b6f" target="_blank">Apache Cassandra 3.x Administrator Associate</a></li>
+	</p>
+	<p>
+		<li><a href="https://www.coursera.org/account/accomplishments/certificate/S87NC2BJCLZ6" target="_blank">Big Data, Cloud Computing, & CDN Emerging Technologies</a></li>
+	</p>
+	<p>
+		<li><a href="https://cert.nobleprog.com/certificate/528869/5fe84" target="_blank">Blockchain for Developers</a></li>
+	</p>
+	<p>
+		<li><a href="https://www.coursera.org/account/accomplishments/verify/NS4UB74CKYTX" target="_blank">Interfacing with the Raspberry Pi</a></li>
+	</p>
+	<p>
+		<li><a href="https://www.coursera.org/account/accomplishments/verify/BMXZN7BA4Y" target="_blank">An Introduction to Interactive Programming with Python(RICE University)</a></li>
+	</p>
+</ul>
+
+</body>
+</html>
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Deploying Kubernetes Cluster on Vagrant</title>
+	  <link>//deploying-kubernetes_cluster_vagrant</link>
+	  <author></author>
+	  <pubDate>2018-12-02T12:30:00+00:00</pubDate>
+	  <guid>//deploying-kubernetes_cluster_vagrant</guid>
+	  <description><![CDATA[
+	     <p>In this blog post we will cover the installation of a Kubernetes Cluster over 3 virtual machines spawned using Virtualbox and Vagrant.</p>
+
+<p>This can be also useful to install Kubernetes over Bare Metal server or any other form of Virtual Machines as well.</p>
+
+<h5 id="assumptions">Assumptions</h5>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Runing on Ubuntu 20.04 or Windows 10 or later
+- If running on Windows 10, disable Hyper-V
+- Vagrant and Virtualbox are already installed.
+- We have 3 Centos 7 virtual machines running.
+</code></pre></div></div>
+
+<h5 id="pre-requisites">Pre-requisites</h5>
+<p>There are a set of pre-requisites before we go ahead and start our Kubernetes Installation. Please follow the below steps for completing the pre-requisites.</p>
+
+<ol>
+  <li>Set the host-names for all 3 machines with the below commands. These hostnames help in node identification and DNS resolutions.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>hostnamectl set-hostname kubem
+ <span class="nb">sudo </span>hostnamectl set-hostname worker1
+ <span class="nb">sudo </span>hostnamectl set-hostname worker2
+</code></pre></div>    </div>
+  </li>
+  <li>Disable selinux
+To avoid the complexities to adding firewall rules, we disable the selinux.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">set </span>selinux 0
+</code></pre></div>    </div>
+    <p>or, edit the file /etc/sysconfig/selinux to permanently disable selinux</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo sed</span> <span class="nt">-i</span> s/^SELINUX<span class="o">=</span>.<span class="k">*</span><span class="nv">$/SELINUX</span><span class="o">=</span>disabled/ /etc/selinux/config
+</code></pre></div>    </div>
+  </li>
+  <li>Disable swap memory - Kubernetes does not goes well with Swap, because memory swapping is allowed to occur on a host system, and idea of kubernetes is to tightly pack instances to as close to 100% utilized as possible. Hence if the scheduler sends a pod to a machine it should never use swap at all otherwise it can lead to performance and stability issues within Kubernetes.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>swapoff <span class="nt">-a</span>
+</code></pre></div>    </div>
+    <p>or</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo sed</span> <span class="nt">-i</span> <span class="s1">'/ swap / s/^\(.*\)$/#\1/g'</span> /etc/fstab
+</code></pre></div>    </div>
+  </li>
+  <li>Set net bridge  for proper traffic routing
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt;  /etc/sysctl.d/k8s.conf
+net.bridge.bridge-nf-call-ip6tables = 1
+net.bridge.bridge-nf-call-iptables = 1
+</span><span class="no">EOF
+</span></code></pre></div>    </div>
+  </li>
+  <li>Reload sysctl
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sysctl <span class="nt">--system</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Set DNS entries in /etc/hosts - Allows local DNS resolution to speed up things.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>192.168.10.60 kubem
+192.168.10.61 worker1
+192.168.10.62 worker2
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h5 id="docker-installation">Docker Installation</h5>
+<p>Now the pre-requisites are done, let’s go ahead and install docker</p>
+<ol>
+  <li>Add the Docker Repository
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum-config-manager <span class="nt">--add-repo</span> https://download.docker.com/linux/centos/docker-ce.repo
+</code></pre></div>    </div>
+  </li>
+  <li>Update the apt repository
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum update <span class="nt">-y</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Install Docker along with it’s dependencies
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install -y yum-utils device-mapper-persistent-data lvm2 docker -y
+</code></pre></div>    </div>
+  </li>
+  <li>Use systemctl utility to configure the docker service and verify the status
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>systemctl <span class="nb">enable </span>docker
+<span class="nb">sudo </span>systemctl start docker
+</code></pre></div>    </div>
+  </li>
+  <li>Verify Docker service status and version
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>systemctl status docker
+docker version
+docker info
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h5 id="installing-kubelet-kubeadm-kubectl">Installing kubelet, kubeadm, kubectl</h5>
+
+<ol>
+  <li>Add Kubernetes Repository
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cat</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh"> &gt; /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
+enabled=1
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
+     https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+</span><span class="no">EOF
+</span></code></pre></div>    </div>
+  </li>
+  <li>Install Kubernetes Utilities - kubeadm, kubectl and kubelet
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum <span class="nb">install</span> <span class="nt">-y</span> kubelet kubeadm kubectl
+</code></pre></div>    </div>
+  </li>
+  <li>Using systemctl enable and start the kubelet service
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>systemctl <span class="nb">enable </span>kubelet
+<span class="nb">sudo </span>systemctl start kubelet
+</code></pre></div>    </div>
+  </li>
+  <li>Initialize the kubernetes cluster
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubeadm init <span class="nt">--apiserver-advertise-address</span><span class="o">=</span>172.31.19.193 <span class="nt">--pod-network-cidr</span><span class="o">=</span>10.244.0.0/16 <span class="nt">--service-cidr</span><span class="o">=</span>10.244.0.0/12
+</code></pre></div>    </div>
+    <p>Copy the joining token command and we will run the joining token on the worker1 and worker2.</p>
+  </li>
+  <li>Exit out of root user and become any non-root user and execute the below steps
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nv">$HOME</span>/.kube
+<span class="nb">sudo cp</span> <span class="nt">-i</span> /etc/kubernetes/admin.conf <span class="nv">$HOME</span>/.kube/config
+<span class="nb">sudo chown</span> <span class="si">$(</span><span class="nb">id</span> <span class="nt">-u</span><span class="si">)</span>:<span class="si">$(</span><span class="nb">id</span> <span class="nt">-g</span><span class="si">)</span> <span class="nv">$HOME</span>/.kube/config
+</code></pre></div>    </div>
+  </li>
+  <li>Verify kubectl commands
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get nodes
+</code></pre></div>    </div>
+  </li>
+  <li>Creating the CNI and Dashboard
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl apply <span class="nt">-f</span> https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
+</code></pre></div>    </div>
+  </li>
+  <li>Verify if all the nodes have become ready in a few minutes
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get nodes
+</code></pre></div>    </div>
+  </li>
+  <li>Deploy the Kubernetes Dashboard
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create <span class="nt">-f</span> https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended/kubernetes-dashboard.yaml
+</code></pre></div>    </div>
+  </li>
+  <li>Patch the kubernetes-dashboard service from ClusterIP to NodePort
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl <span class="nt">-n</span> kubernetes-dashboard patch svc kubernetes-dashboard <span class="nt">--type</span><span class="o">=</span><span class="s1">'json'</span> <span class="nt">-p</span> <span class="s1">'[{"op":"replace","path":"/spec/type","value":"NodePort"}]'</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Get the secret toekn to login to the kubernetes dashboard
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl <span class="nt">-n</span> kube-system get secret
+kubectl <span class="nt">-n</span> kube-system describe secret namespace-contoller-token-xyxyx
+</code></pre></div>    </div>
+    <p>Now use this token to login to the cluster
+https://Node IP:NodePORT</p>
+  </li>
+  <li>Verify our kubernetes cluster
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get nodes
+</code></pre></div>    </div>
+  </li>
+  <li>Run some workloads and see if the pods are getting provisioned
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl create deployment nginx <span class="nt">--image</span> nginx <span class="nt">--replicas</span> 4 <span class="nt">--port</span> 80
+</code></pre></div>    </div>
+  </li>
+  <li>Verify if the pods have been created or not
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>kubectl get pods <span class="nt">-o</span> wide
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>The Road to Kingdom</title>
+	  <link>//the_road_to_a_kingdom</link>
+	  <author></author>
+	  <pubDate>2017-03-23T20:03:00+00:00</pubDate>
+	  <guid>//the_road_to_a_kingdom</guid>
+	  <description><![CDATA[
+	     <h4>Found somewhere on the media and definitely worth a read....</h4>
+
+<p>There was a road to a kingdom, it had a big piece of rock in the middle of the road. People would pass by, the horses would break their kneels and carts would get blocked, but nobody did anything.
+</p>
+
+<p>One fine day a girl was passing by carrying a caret of beers and she hit the rock really hard and fell. And you guessed it right, the casket fell down and all her brewed beer bottles fell down and broke, dust soaked it all and it was all gone. That was her family's last chance, they were hungry didn't have any money.
+</p>
+
+<p>She sat there and cried but she wondered why the rock was still there for it to hurt someone else. So she dug up the rock in the road with her hands till they bled, used everything she had to pull it out. It took hours and then when she was gonna fill it up, she saw there something else, a bag of gold. The king put that rock in the middle of the road because he knew the person who dug it out - who did something deserves a reward - deserve to have their life changed for the good forever!!
+</p>
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>RethinkDb Installation on Ubuntu-14.04</title>
+	  <link>//rethinkdb_installation_ubuntu14</link>
+	  <author></author>
+	  <pubDate>2016-02-04T10:18:00+00:00</pubDate>
+	  <guid>//rethinkdb_installation_ubuntu14</guid>
+	  <description><![CDATA[
+	     Let's get some hands on rethinkdb today and find it out yourself. </br>
+</br>
+So what is rethinkdb?
+</br></br>
+Rethinkdb is an open-source, scalable JSON database built from the ground up for the realtime web.
+</br>RethinkDB inverts the traditional database architecture by exposing an exciting new access model – instead of polling for changes, the developer can tell RethinkDB to continuously push updated query results to applications in realtime. RethinkDB’s realtime push architecture dramatically reduces the time and effort necessary to build scalable realtime apps. RethinkDB also offers a flexible query language, intuitive operations and monitoring APIs, and is easy to setup and learn. Just like any other database solution, rethinkdb ships as a client-server component model. The installation process for both the server and the client are illustrated below:
+
+<p>How to Install RethinkDb:</p>
+1. Add the RethinkDB PPA to your list of repositories : 
+<br></br>
+<code>source /etc/lsb-release && echo "deb http://download.rethinkdb.com/apt $DISTRIB_CODENAME main" | sudo tee /etc/apt/sources.list.d/rethinkdb.list</code>
+<br></br>
+2. Add the keys:<br></br>
+
+<code>wget -qO- http://download.rethinkdb.com/apt/pubkey.gpg | sudo apt-key add -</code>
+<br></br>
+3. Update the repository:
+<br></br>
+<code>sudo apt-get update</code>
+<br></br>
+4. Install the rethinkdb server via apt-get:
+<br></br>
+<code>sudo apt-get -y install rethinkdb</code>
+<br></br>
+Install rethinkdb client:
+<br></br>
+1. Install the python-pip package:
+<br></br>
+<code>sudo apt-get install python-pip</code>
+<br></br>
+2. Install the rethinkdb python client:
+<br></br>
+<code>sudo pip install rethinkdb</code>
+<br></br>
+The above steps ensure that rethinkdb is installed on the system, while it does not ensures that this will start the rethinkdb service on system startup. You still need to start the rethinkdb service using the below command
+<br></br>
+<code>rethinkdb</code>
+<br></br>
+The above command will ensure that rethinkdb is running as a terminal process, and will exit once the terminal is closed, or the process is killed, in short it will not run rethinkdb as a background service.
+<br></br>
+To start rethinkdb as a service, please follow the below steps:
+<br></br>
+1.  Move to the directory /etc/rethinkdb
+<br></br><code>cd /etc/rethinkdb</code>
+<br></br>
+2. Copy the file to /etc/rethinkdb/instances.d and rename the file as per your requirements ensuring the extension is .conf only. Say for example the file name is rethinkdb1.conf
+<br></br><code>cp default.conf.sample rethinkdb1.conf</code>
+<br></br>
+3. Now open the file /etc/rethinkdb/instances.d/rethinkdb1.conf and modify the paramaters as per your requirements.
+<br></br><code>vim rethinkdb1.conf</code>
+<br></br>
+4. If setting up a cluster, we suggest do change the server-name to somethink like 'rethinkdb-primary' or 'rethinkdb-1' or 'master' or 'slave'. This will ensure that we have a meaningful naming convention for our cluster.
+<br></br>
+5. The default port details are :
+<br></br>
+<code>29015 :</code> Rethinkdb listens for intracluster connections
+</br>
+<code>28015 :</code> Rethinkdb listens for client driver connections
+</br>
+<code>8080  :</code> Rethinkdb listens for administrative HTTP connections
+</br>
+<code>22    :</code> For SSH. The server uses public key authentication.
+</br>
+<code>80    :</code> For HTTP. It is used during the setup process but otherwise redirects to HTTPS.
+</br>
+<code>443   :</code> For HTTPS. An Nginx server sits between RethinkDB and the world and provides basic HTTP authentication and secure HTTPS connections for the web UI
+<br></br>
+</body>
+</html>
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Markdown cheat-sheets</title>
+	  <link>//mark_down_cheatsheet</link>
+	  <author></author>
+	  <pubDate>2016-02-01T13:48:37+00:00</pubDate>
+	  <guid>//mark_down_cheatsheet</guid>
+	  <description><![CDATA[
+	     <p>Source : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</p>
+
+<h1 id="h1----h1">H1 - # H1</h1>
+<h2 id="h2----h2">H2 - ## H2</h2>
+<h3 id="h3----h3">H3 - ### H3</h3>
+<h4 id="h4----h4">H4 - #### H4</h4>
+<h5 id="h5----h5">H5 - ##### H5</h5>
+<h6 id="h6----h6">H6 -  ######H6</h6>
+
+<h1 id="will-become-a-heading">Will become a heading</h1>
+
+<h2 id="will-become-a-sub-heading">Will become a sub heading</h2>
+
+<p><em>This will be Italic</em></p>
+
+<p><strong>This will be Bold</strong></p>
+
+<ul>
+  <li>This will be a list item</li>
+  <li>
+    <p>This will be a list item</p>
+
+    <p>Add a indent and this will end up as code</p>
+  </li>
+</ul>
+
+<p>Alternatively, for H1 and H2, an underline-ish style:</p>
+
+<h1 id="alt-h1">Alt-H1</h1>
+
+<h2 id="alt-h2">Alt-H2</h2>
+
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+
+<ol>
+  <li>First ordered list item</li>
+  <li>Another item
+⋅⋅* Unordered sub-list.</li>
+  <li>Actual numbers don’t matter, just that it’s a number
+⋅⋅1. Ordered sub-list</li>
+  <li>And another item.</li>
+</ol>
+
+<p>⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).</p>
+
+<p>⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+
+<ul>
+  <li>Unordered list can use asterisks</li>
+  <li>Or minuses</li>
+  <li>Or pluses</li>
+</ul>
+
+<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+
+<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
+
+<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
+
+<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
+
+<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+
+<p>URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes 
+example.com (but not on Github, for example).</p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<p>Here’s our logo (hover to see the title text):</p>
+
+<p>Inline-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
+
+<p>Reference-style: 
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
+
+<p>Inline <code class="language-plaintext highlighter-rouge">code</code> has <code class="language-plaintext highlighter-rouge">back-ticks around</code> it.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
+<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<span class="k">print</span> <span class="n">s</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting. 
+But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+</code></pre></div></div>
+
+<p>var s = “JavaScript syntax highlighting”;
+alert(s);</p>
+
+<p>s = “Python syntax highlighting”
+print s</p>
+
+<p>No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+But let’s throw in a <b>tag</b>.</p>
+
+<p>Colons can be used to align columns.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th style="text-align: center">Are</th>
+      <th style="text-align: right">Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td style="text-align: center">right-aligned</td>
+      <td style="text-align: right">$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td style="text-align: center">centered</td>
+      <td style="text-align: right">$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td style="text-align: center">are neat</td>
+      <td style="text-align: right">$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don’t need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.</p>
+</blockquote>
+
+<p>Quote break.</p>
+
+<blockquote>
+  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+
+</blockquote>
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<p>Three or more…</p>
+
+<hr />
+
+<p>Hyphens</p>
+
+<hr />
+
+<p>Asterisks</p>
+
+<hr />
+
+<p>Underscores</p>
+
+<p>Here’s a line for us to start with.</p>
+
+<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
+
+<p>This line is also a separate paragraph, but…
+This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=YOUTUBE_VIDEO_ID_HERE " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a></p>
+
+<p><a href="http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" /></a></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Getting started with Cassandra</title>
+	  <link>//getting_familiar_with_cassandra</link>
+	  <author></author>
+	  <pubDate>2016-01-28T10:18:00+00:00</pubDate>
+	  <guid>//getting_familiar_with_cassandra</guid>
+	  <description><![CDATA[
+	     <p>The Growth of Big Data - Big Data is one of the key forces driving the growth and popularity of NoSQL for business. The almost limitless array of data collection technologies ranging from simple online actions to point of sale systems to GPS tools to smartphones and tablets to sophisticated sensors – and many more – act as force multipliers for data growth.</p>
+
+<p>In fact, one of the first reasons to use NoSQL is because we have a Big Data project to tackle. A Big Data project is normally typified by:</p>
+
+<ul>
+  <li>High data velocity – lots of data coming in very quickly, possibly from different locations.</li>
+  <li>Data variety – storage of data that is structured, semi-structured and unstructured.</li>
+  <li>Data volume – data that involves many terabytes or petabytes in size.</li>
+  <li>Data complexity – data that is stored and managed in different locations or data centers.</li>
+</ul>
+
+<table style="width:100%">
+  <caption>Comparison</caption>
+  <tr>
+    <th>Datamodel</th>
+    <th>Performance</th>
+    <th>Scalability</th>
+    <th>Flexibility</th>
+    <th>Complexity</th>
+    <th>Functionality</th>
+  </tr>
+  <tr>
+    <td>Key-value store</td><td>High</td><td>High</td><td>High</td><td>None</td><td>Variable (None)</td>
+  </tr>
+  <tr>
+    <td>Column Store</td><td>High</td><td>High</td><td>Loq</td><td>Moderate</td><td>Low Minimal</td>
+  </tr>
+  <tr>
+    <td>Document Store</td><td>High</td><td>Variable</td><td>High</td><td>Low</td><td>Variable</td>
+  </tr>
+    <tr>
+    <td>Graph Database</td><td>Variable</td><td>Variable</td><td>High</td><td>High</td><td>Graph Theory</td>
+  </tr>
+</table>
+
+<p>Cassandra is perfect for managing large amounts of structured, semi-structured, and unstructured data across multiple data centers and the cloud. Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers with no single point of failure, along with a powerful dynamic data model designed for maximum flexibility and fast response times. Built-for-scale architecture means that it is capable of handling petabytes of information and thousands of concurrent users/operations per second.</p>
+
+<p>An apache Software Foundation project, Cassandra is column oriented database and is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra does not support joins or subqueries. Rather, Cassandra emphasizes denormalization through features like collections.</p>
+
+<p>Each node in a cluster can accept read and write requests, regardless of where the data is actually located in the cluster.</p>
+
+<p>When a node goes down, read/write requests can be served from other nodes in the network.</p>
+
+<p>The key components of Cassandra are as follows:</p>
+<ol>
+  <li><code>Node</code> − It is the place where data is stored.
+<br /></li>
+  <li><code>Data center</code> − It is a collection of related nodes.
+<br /></li>
+  <li><code>Cluster</code>− A cluster is a component that contains one or more data centers.
+<br /></li>
+  <li><code>Commit log</code> − The commit log is a crash-recovery mechanism in Cassandra. Every write operation is written to the commit log.
+<br /></li>
+  <li><code>Mem-table</code> − A mem-table is a memory-resident data structure. After commit log, the data will be written to the mem-table. Sometimes, for a single-column family, there will be multiple mem-tables.
+<br /></li>
+  <li><code>SSTable</code> − It is a disk file to which the data is flushed from the mem-table when its contents reach a threshold value.
+<br /></li>
+  <li><code>Bloom filter</code> − These are nothing but quick, nondeterministic, algorithms for testing whether an element is a member of a set. It is a special kind of cache. Bloom filters are accessed after every query.</li>
+</ol>
+
+<p><br /><br /></p>
+<h5>Commands:</h5>
+<p><code>nodetool cfstats :</code> displays statistics for each table and keyspace.
+<br />
+<code>nodetool cfhistograms :</code> provides statistics about a table, including read/write latency, row size, column count, and number of SSTables.
+<br />
+<code>nodetool netstats :</code> provides statistics about network operations and connections.
+<br />
+<code>nodetool tpstats :</code> provides statistics about the number of active, pending, and completed tasks for each stage of Cassandra operations by thread pool.
+<br />
+<code>nodetool status :</code>
+<br />
+<code>cqlsh machine_ip</code> -  connects to the machine cqlsh
+<br />
+<br /></p>
+<h5><u>cqlsh command list:</u></h5>
+<p><code>HELP </code> - Displays help topics for all cqlsh commands.
+<br />
+<code>CAPTURE </code> - Captures the output of a command and adds it to a file.
+<br />
+<code>CONSISTENCY </code> - Shows the current consistency level, or sets a new consistency level.
+<br />
+<code>COPY </code> - Copies data to and from Cassandra.
+<br />
+<code>DESCRIBE </code> - Describes the current cluster of Cassandra and its objects.
+<br />
+<code>EXPAND </code> - Expands the output of a query vertically.
+<br />
+<code>EXIT </code> - Using this command, you can terminate cqlsh.
+<br />
+<code>PAGING </code> - Enables or disables query paging.
+<br />
+<code>SHOW </code> - Displays the details of current cqlsh session such as Cassandra version, host, or data type assumptions.
+<br />
+<code>SOURCE -</code> Executes a file that contains CQL statements.
+<br />
+<code>TRACING -</code> Enables or disables request tracing.
+<br />
+<br /></p>
+<h5><u>Upgrading:</u></h5>
+<p>To upgrade an existing cassandra installation, you can follow the below instructions:</p>
+
+<li><code>mkdir ~/cassandra_backup</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup</code>
+<li><code>sudo vi /etc/cassandra/cassandra.yaml</code> and edit num_tokens to 1 and uncomment the initial_token and set it to 1
+<li><code>nodetool upgradesstables</code>
+<li><code>nodetool drain</code>
+<li><code>sudo service cassandra stop</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup_new</code>
+<li><code>sudo apt-get install cassandra=2.1.12</code>
+<li>Open the old and new cassandra.yaml files and diff them.
+<li>Merge the diffs by hand, including the partitioner setting, from the old file into the new one.
+<li>Do not use the default partitioner setting in the new cassandra.yaml because it has changed in this release to the Murmur3Partitioner. The Murmur3Partitioner can only be used for new clusters. After data has been added to the cluster, you cannot change the partitioner without reworking tables, which is not practical. Use your old partitioner setting in the new cassandra.yaml file.
+<li>Save the file as cassandra.yaml.
+<br />Configuration file '/etc/cassandra/cassandra.yaml'
+ ==&gt; Modified (by you or by a script) since installation.
+ ==&gt; Package distributor has shipped an updated version.
+   What would you like to do about it ?  Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a shell to examine the situation
+ The default action is to keep your current version.
+*** cassandra.yaml (Y/I/N/O/D/Z) [default=N] ? 
+
+<h5>Inserting values into tables</h5>
+<code>CREATE KEYSPACE key_space WITH replication = {
+  'class': 'NetworkTopologyStrategy',
+  'cdr_record': '2'
+};</code>
+<br />
+<code>INSERT INTO key_space.emp (emp_id,emp_city,emp_name,emp_phone,emp_sal) VALUES(3,'Kolkata','Stag1',4412,60);</code>
+<br />
+<code>UPDATE TABLE emp(
+   emp_id int PRIMARY KEY,
+   emp_name text,
+   emp_city text,
+   emp_sal varint,
+   emp_phone varint);
+</code>
+<br />
+<code>INSERT INTO TABLE emp(emp_id int,emp_name,emp_city,emp_sal,emp_phone) VALUES(1,'foo','Bangalore',24,1234567);</code>
+<br />
+<h5>Nodetool Command Set:</h5>
+1. <code>nodetool status</code>
+<br />
+2. <code>nodetool info</code>
+<br />
+3. <code>nodetool -host 10.60.8.23 ring</code>
+<br />
+</li></li></li></li></li></li></li></li></li></li></li></li>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>5 interesting cloud predictions for 2016</title>
+	  <link>//5_interesting_cloud_predictions_2016</link>
+	  <author></author>
+	  <pubDate>2016-01-28T10:18:00+00:00</pubDate>
+	  <guid>//5_interesting_cloud_predictions_2016</guid>
+	  <description><![CDATA[
+	     <h5 id="1-its-time-for-iot-">1. It’s time for IOT-</h5>
+
+<p>The IOT or the Internet of Things has been a buzzword around for quite some time. And finally the time has come for IOT to be on boom. It is predicted that by the end of 2016, there will be one billion connected devices.</p>
+
+<p>The Internet of Things is all set to harness the awesomeness of Cloud computing this year. IOT and Cloud combined together breaks free all limitations. The duo combo can help right from analyzing the weather conditions at your home and water the plants to conducting major surgeries remotely to powering drones for military, logistics etc. and what not!!</p>
+
+<h5 id="2-cloud-is-expanding--">2. Cloud is expanding -</h5>
+<p>AWS coming to India in 2016. Owing to the huge demand in the Indian sub-continent for Cloud services, AWS(Amazon Web Services)- one of the top cloud services provider has plans to setup India region in 2016. Do I still need to say anything more on this?</p>
+
+<p>More and more startups will be focusing towards adapting cloud culture - Cloud is so versatile and flexible, it allows you to work from any corner of the world. Startups ideally do not have the infrastructure/resources to manage their own data-centers or hardware. Cloud provides then with Infrastructure as a Service at a very affordable rates, so they can focus more on their product.</p>
+
+<h5 id="3-outcast-for-more-flexible-cloud-apps">3. Outcast for more flexible cloud apps</h5>
+<p>The need for more flexible cloud apps can not be denied. With the rise in clod computing, will come the rise for ease of accessibility. This will trigger quiet a lot of cloud apps to outcast in the near future, similar to AWS CLI.</p>
+
+<h5 id="4-rise-of-containerization">4. Rise of Containerization</h5>
+<p>With the rise in better internet services and bandwidth in the second and third world’s Dockerization/containerization will be emerging as a critical technology and on rise and will soon be a critical component in deployments.</p>
+
+<h5 id="5-security">5. Security</h5>
+<p>Cloud security should be a major concern for everyone working on cloud/IOT. One should perform a security assessment before starting their design. For IOT’s, using an RTOS does not ensure security and neither does Encryption. One should ensure all attack vectors are addressed. Even if you are able to secure the cloud, rest assured it may not be enough because your device can still be compromised.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

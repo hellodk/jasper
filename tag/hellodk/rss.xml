@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>https://hellodk.io/</title>
+   
+   <link></link>
+   <description>A beautiful narrative written over an elegant publishing platform. The story begins here...</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>5 interesting cloud predictions for 2016</title>
+	  <link>//5_interesting_cloud_predictions_2016</link>
+	  <author></author>
+	  <pubDate>2016-01-28T10:18:00+00:00</pubDate>
+	  <guid>//5_interesting_cloud_predictions_2016</guid>
+	  <description><![CDATA[
+	     <h5 id="1-its-time-for-iot-">1. It’s time for IOT-</h5>
+
+<p>The IOT or the Internet of Things has been a buzzword around for quite some time. And finally the time has come for IOT to be on boom. It is predicted that by the end of 2016, there will be one billion connected devices.</p>
+
+<p>The Internet of Things is all set to harness the awesomeness of Cloud computing this year. IOT and Cloud combined together breaks free all limitations. The duo combo can help right from analyzing the weather conditions at your home and water the plants to conducting major surgeries remotely to powering drones for military, logistics etc. and what not!!</p>
+
+<h5 id="2-cloud-is-expanding--">2. Cloud is expanding -</h5>
+<p>AWS coming to India in 2016. Owing to the huge demand in the Indian sub-continent for Cloud services, AWS(Amazon Web Services)- one of the top cloud services provider has plans to setup India region in 2016. Do I still need to say anything more on this?</p>
+
+<p>More and more startups will be focusing towards adapting cloud culture - Cloud is so versatile and flexible, it allows you to work from any corner of the world. Startups ideally do not have the infrastructure/resources to manage their own data-centers or hardware. Cloud provides then with Infrastructure as a Service at a very affordable rates, so they can focus more on their product.</p>
+
+<h5 id="3-outcast-for-more-flexible-cloud-apps">3. Outcast for more flexible cloud apps</h5>
+<p>The need for more flexible cloud apps can not be denied. With the rise in clod computing, will come the rise for ease of accessibility. This will trigger quiet a lot of cloud apps to outcast in the near future, similar to AWS CLI.</p>
+
+<h5 id="4-rise-of-containerization">4. Rise of Containerization</h5>
+<p>With the rise in better internet services and bandwidth in the second and third world’s Dockerization/containerization will be emerging as a critical technology and on rise and will soon be a critical component in deployments.</p>
+
+<h5 id="5-security">5. Security</h5>
+<p>Cloud security should be a major concern for everyone working on cloud/IOT. One should perform a security assessment before starting their design. For IOT’s, using an RTOS does not ensure security and neither does Encryption. One should ensure all attack vectors are addressed. Even if you are able to secure the cloud, rest assured it may not be enough because your device can still be compromised.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>

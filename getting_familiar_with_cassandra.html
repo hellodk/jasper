@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Page Meta -->
+    <title>Getting started with Cassandra</title>
+    <meta name="description" content="A beautiful narrative written over an elegant publishing platform. The story begins here..." />
+
+    <!-- Mobile Meta -->
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Brand icon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" >
+
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/syntax.css" />
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!-- Ghost outputs important style and meta data with this tag -->
+        <link rel="canonical" href="//getting_familiar_with_cassandra" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/page2/" />
+
+    <meta property="og:site_name" content="Curiosity is the most powerful thing you own" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Getting started with Cassandra" />
+    <meta property="og:description" content="A beautiful narrative written over an elegant publishing platform. The story begins here..." />
+    <meta property="og:url" content="//getting_familiar_with_cassandra" />
+    <meta property="og:image" content="/assets/images/cassandra/astronaut_on_the_moon.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Getting started with Cassandra" />
+    <meta name="twitter:description" content="A beautiful narrative written over an elegant publishing platform. The story begins here..." />
+    <meta name="twitter:url" content="//getting_familiar_with_cassandra" />
+    <meta name="twitter:image:src" content="/assets/images/cassandra/astronaut_on_the_moon.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Curiosity is the most powerful thing you own",
+    "name": "Getting started with Cassandra",
+    "url": "//getting_familiar_with_cassandra",
+    "image": "/assets/images/cassandra/astronaut_on_the_moon.jpg",
+    "description": "A beautiful narrative written over an elegant publishing platform. The story begins here..."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Curiosity is the most powerful thing you own" href="/feed.xml" />
+
+
+</head>
+<body class="home-template nav-closed">
+
+    <!-- The blog navigation links -->
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home " role="presentation"><a href="/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/about">About</a></li>
+        <li class="nav-databases " role="presentation"><a href="/tag/databases">Databases</a></li>
+        <li class="nav-devops " role="presentation"><a href="/tag/devops">DevOps</a></li>
+        <li class="nav-fiction " role="presentation"><a href="/tag/fiction">Fiction</a></li>
+        <li class="nav-author " role="presentation"><a href="/tag/mlops">MLOps</a></li>
+        <li class="nav-travel " role="presentation"><a href="/tag/travel">Travel</a></li>
+        <li class="nav-resume " role="presentation"><a href="/resume">Resume</a></li>
+        <li class="nav-photography " role="presentation"><a href="/tag/photography">Photography</a></li>
+        <li class="nav-author " role="presentation"><a href="/author">Author</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The comment above "< default" means - insert everything in this file into -->
+    <!-- the [body] of the default.hbs template, which contains our header/footer. -->
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<header class="main-header post-head " style="background-image: url(/assets/images/cassandra/astronaut_on_the_moon.jpg) ">
+    <nav class="main-nav  overlay  clearfix">
+        <a class="blog-logo" href="/"><img src="/assets/images/utilities/home_icon.png" alt="Blog Logo" /></a>
+        
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+        
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post tag-devops">
+
+        <header class="post-header">
+            <h1 class="post-title">Getting started with Cassandra</h1>
+            <section class="post-meta">
+            <!-- <a href='/'></a> -->
+
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            <time class="post-date" datetime="2016-01-28">28 Jan 2016</time>
+                <!-- [[tags prefix=" on "]] -->
+                
+                on
+                
+                    
+                       <a href='/tag/devops'>Devops</a>,
+                    
+                
+                    
+                       <a href='/tag/databases'>Databases</a>
+                    
+                
+                
+            </section>
+        </header>
+
+        <section class="post-content">
+
+            <p>The Growth of Big Data - Big Data is one of the key forces driving the growth and popularity of NoSQL for business. The almost limitless array of data collection technologies ranging from simple online actions to point of sale systems to GPS tools to smartphones and tablets to sophisticated sensors – and many more – act as force multipliers for data growth.</p>
+
+<p>In fact, one of the first reasons to use NoSQL is because we have a Big Data project to tackle. A Big Data project is normally typified by:</p>
+
+<ul>
+  <li>High data velocity – lots of data coming in very quickly, possibly from different locations.</li>
+  <li>Data variety – storage of data that is structured, semi-structured and unstructured.</li>
+  <li>Data volume – data that involves many terabytes or petabytes in size.</li>
+  <li>Data complexity – data that is stored and managed in different locations or data centers.</li>
+</ul>
+
+<table style="width:100%">
+  <caption>Comparison</caption>
+  <tr>
+    <th>Datamodel</th>
+    <th>Performance</th>
+    <th>Scalability</th>
+    <th>Flexibility</th>
+    <th>Complexity</th>
+    <th>Functionality</th>
+  </tr>
+  <tr>
+    <td>Key-value store</td><td>High</td><td>High</td><td>High</td><td>None</td><td>Variable (None)</td>
+  </tr>
+  <tr>
+    <td>Column Store</td><td>High</td><td>High</td><td>Loq</td><td>Moderate</td><td>Low Minimal</td>
+  </tr>
+  <tr>
+    <td>Document Store</td><td>High</td><td>Variable</td><td>High</td><td>Low</td><td>Variable</td>
+  </tr>
+    <tr>
+    <td>Graph Database</td><td>Variable</td><td>Variable</td><td>High</td><td>High</td><td>Graph Theory</td>
+  </tr>
+</table>
+
+<p>Cassandra is perfect for managing large amounts of structured, semi-structured, and unstructured data across multiple data centers and the cloud. Cassandra delivers continuous availability, linear scalability, and operational simplicity across many commodity servers with no single point of failure, along with a powerful dynamic data model designed for maximum flexibility and fast response times. Built-for-scale architecture means that it is capable of handling petabytes of information and thousands of concurrent users/operations per second.</p>
+
+<p>An apache Software Foundation project, Cassandra is column oriented database and is an open source distributed database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra does not support joins or subqueries. Rather, Cassandra emphasizes denormalization through features like collections.</p>
+
+<p>Each node in a cluster can accept read and write requests, regardless of where the data is actually located in the cluster.</p>
+
+<p>When a node goes down, read/write requests can be served from other nodes in the network.</p>
+
+<p>The key components of Cassandra are as follows:</p>
+<ol>
+  <li><code>Node</code> − It is the place where data is stored.
+<br /></li>
+  <li><code>Data center</code> − It is a collection of related nodes.
+<br /></li>
+  <li><code>Cluster</code>− A cluster is a component that contains one or more data centers.
+<br /></li>
+  <li><code>Commit log</code> − The commit log is a crash-recovery mechanism in Cassandra. Every write operation is written to the commit log.
+<br /></li>
+  <li><code>Mem-table</code> − A mem-table is a memory-resident data structure. After commit log, the data will be written to the mem-table. Sometimes, for a single-column family, there will be multiple mem-tables.
+<br /></li>
+  <li><code>SSTable</code> − It is a disk file to which the data is flushed from the mem-table when its contents reach a threshold value.
+<br /></li>
+  <li><code>Bloom filter</code> − These are nothing but quick, nondeterministic, algorithms for testing whether an element is a member of a set. It is a special kind of cache. Bloom filters are accessed after every query.</li>
+</ol>
+
+<p><br /><br /></p>
+<h5>Commands:</h5>
+<p><code>nodetool cfstats :</code> displays statistics for each table and keyspace.
+<br />
+<code>nodetool cfhistograms :</code> provides statistics about a table, including read/write latency, row size, column count, and number of SSTables.
+<br />
+<code>nodetool netstats :</code> provides statistics about network operations and connections.
+<br />
+<code>nodetool tpstats :</code> provides statistics about the number of active, pending, and completed tasks for each stage of Cassandra operations by thread pool.
+<br />
+<code>nodetool status :</code>
+<br />
+<code>cqlsh machine_ip</code> -  connects to the machine cqlsh
+<br />
+<br /></p>
+<h5><u>cqlsh command list:</u></h5>
+<p><code>HELP </code> - Displays help topics for all cqlsh commands.
+<br />
+<code>CAPTURE </code> - Captures the output of a command and adds it to a file.
+<br />
+<code>CONSISTENCY </code> - Shows the current consistency level, or sets a new consistency level.
+<br />
+<code>COPY </code> - Copies data to and from Cassandra.
+<br />
+<code>DESCRIBE </code> - Describes the current cluster of Cassandra and its objects.
+<br />
+<code>EXPAND </code> - Expands the output of a query vertically.
+<br />
+<code>EXIT </code> - Using this command, you can terminate cqlsh.
+<br />
+<code>PAGING </code> - Enables or disables query paging.
+<br />
+<code>SHOW </code> - Displays the details of current cqlsh session such as Cassandra version, host, or data type assumptions.
+<br />
+<code>SOURCE -</code> Executes a file that contains CQL statements.
+<br />
+<code>TRACING -</code> Enables or disables request tracing.
+<br />
+<br /></p>
+<h5><u>Upgrading:</u></h5>
+<p>To upgrade an existing cassandra installation, you can follow the below instructions:</p>
+
+<li><code>mkdir ~/cassandra_backup</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup</code>
+<li><code>sudo vi /etc/cassandra/cassandra.yaml</code> and edit num_tokens to 1 and uncomment the initial_token and set it to 1
+<li><code>nodetool upgradesstables</code>
+<li><code>nodetool drain</code>
+<li><code>sudo service cassandra stop</code>
+<li><code>sudo cp -r /etc/cassandra/* ~/cassandra_backup_new</code>
+<li><code>sudo apt-get install cassandra=2.1.12</code>
+<li>Open the old and new cassandra.yaml files and diff them.
+<li>Merge the diffs by hand, including the partitioner setting, from the old file into the new one.
+<li>Do not use the default partitioner setting in the new cassandra.yaml because it has changed in this release to the Murmur3Partitioner. The Murmur3Partitioner can only be used for new clusters. After data has been added to the cluster, you cannot change the partitioner without reworking tables, which is not practical. Use your old partitioner setting in the new cassandra.yaml file.
+<li>Save the file as cassandra.yaml.
+<br />Configuration file '/etc/cassandra/cassandra.yaml'
+ ==&gt; Modified (by you or by a script) since installation.
+ ==&gt; Package distributor has shipped an updated version.
+   What would you like to do about it ?  Your options are:
+    Y or I  : install the package maintainer's version
+    N or O  : keep your currently-installed version
+      D     : show the differences between the versions
+      Z     : start a shell to examine the situation
+ The default action is to keep your current version.
+*** cassandra.yaml (Y/I/N/O/D/Z) [default=N] ? 
+
+<h5>Inserting values into tables</h5>
+<code>CREATE KEYSPACE key_space WITH replication = {
+  'class': 'NetworkTopologyStrategy',
+  'cdr_record': '2'
+};</code>
+<br />
+<code>INSERT INTO key_space.emp (emp_id,emp_city,emp_name,emp_phone,emp_sal) VALUES(3,'Kolkata','Stag1',4412,60);</code>
+<br />
+<code>UPDATE TABLE emp(
+   emp_id int PRIMARY KEY,
+   emp_name text,
+   emp_city text,
+   emp_sal varint,
+   emp_phone varint);
+</code>
+<br />
+<code>INSERT INTO TABLE emp(emp_id int,emp_name,emp_city,emp_sal,emp_phone) VALUES(1,'foo','Bangalore',24,1234567);</code>
+<br />
+<h5>Nodetool Command Set:</h5>
+1. <code>nodetool status</code>
+<br />
+2. <code>nodetool info</code>
+<br />
+3. <code>nodetool -host 10.60.8.23 ring</code>
+<br />
+</li></li></li></li></li></li></li></li></li></li></li></li>
+
+
+        </section>
+
+        <footer class="post-footer">
+
+            <!-- Everything inside the #author tags pulls data from the author -->
+            <!-- #author-->
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+
+            <!-- Add Disqus Comments -->
+            
+
+        </footer>
+
+    </article>
+
+</main>
+
+<aside class="read-next">
+
+    <!-- [[! next_post ]] -->
+    
+        <a class="read-next-story " style="background-image: url(/assets/images/cover1.jpg)" href="/mark_down_cheatsheet">
+            <section class="post">
+                <h2>Markdown cheat-sheets</h2>
+                <p>Source : https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet # H1 - # H1 ## H2 - ## H2 ### H3...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /next_post ]] -->
+    <!-- [[! prev_post ]] -->
+    
+        <a class="read-next-story prev " style="background-image: url(/assets/images/cover4.jpg)" href="/5_interesting_cloud_predictions_2016">
+            <section class="post">
+                <h2>5 interesting cloud predictions for 2016</h2>
+                <p>1. It’s time for IOT- The IOT or the Internet of Things has been a...</p>
+            </section>
+        </a>
+    
+    <!-- [[! /prev_post ]] -->
+</aside>
+
+<!-- /post -->
+
+
+        <!-- The tiny footer at the very bottom -->
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/">Curiosity is the most powerful thing you own</a> &copy; 2023</section>
+          <section class="poweredby">Published by <a href="https://thecylon.org">theCylon.org</a></section>
+        </footer>
+    </div>
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- jQuery needs to come before `` so that jQuery can be used in code injection -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Ghost outputs important scripts and data with this tag -->
+    <!--  -->
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-84547172-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+    <!-- Fitvids makes video embeds responsive and awesome -->
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <!-- The main JavaScript file for Casper -->
+    <script type="text/javascript" src="/assets/js/index.js"></script>
+
+</body>
+</html>
