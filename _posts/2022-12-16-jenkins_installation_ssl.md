@@ -2,7 +2,7 @@
 layout: post
 cover: false
 title: How to deploy Jenkins with SSL
-date:  2022-12-16 10:18:00
+date:  2023-03-14 22:18:00
 tags: tutorials jenkins ssl security 2022 year hellodk
 subclass: 'post tag-tutorials'
 categories: 'dk'
