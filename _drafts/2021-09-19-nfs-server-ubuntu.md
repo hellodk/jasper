@@ -19,7 +19,7 @@ navigation: True
 sudo apt update
 ```
 ```shell
-sudo apt install nfs-kernel-server
+sudo apt install nfs-kernel-server -y
 ```
 
 ###### Creating the export directory for the NFS server
@@ -31,10 +31,16 @@ sudo mkdir -p /mnt/nfs_share
 
 helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
 helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner     --set nfs.server=x.x.x.x     --set nfs.path=/exported/path
-  954  helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
-  955  helm repo update
-  956  helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner  --set nfs.server=192.168.0.9 --set nfs.path=/mnt/nfs_share
-  957  vim ~/.kube/config 
-  958  helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner  --set nfs.server=192.168.0.9 --set nfs.path=/mnt/nfs_share
-  959  vim nfs-server.yaml 
-  960  kubectl get sc
+
+helm repo add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner/
+helm repo update
+helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner  --set nfs.server=192.168.0.9 --set nfs.path=/mnt/nfs_share
+helm install nfs-subdir-external-provisioner nfs-subdir-external-provisioner/nfs-subdir-external-provisioner  --set nfs.server=192.168.0.9 --set nfs.path=/mnt/nfs_share
+vim nfs-server.yaml 
+kubectl get sc
+
+
+https://linuxhint.com/install-and-configure-nfs-server-ubuntu-22-04/
+
+https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner
+

@@ -1,0 +1,27 @@
+---
+layout: post
+cover: true
+title: Set Custom DNS Resolvers in Ubuntu 22.04
+date:  2023-01-24 11:30:00
+tags: tutorials
+subclass: 'post tag-tutorials'
+categories: 'dk'
+navigation: True
+logo: 'assets/images/utilities/home_icon.png'
+cover: 'assets/images/kubernetes/kubernetes_logo.png'
+---
+I finally found the solution here: https://serverok.in/systemd-resolved
+
+In case the link die in the future: Create a file:
+
+sudo mkdir /etc/systemd/resolved.conf.d/
+sudo nano /etc/systemd/resolved.conf.d/dns_servers.conf
+Add my dns in this file:
+
+[Resolve]
+DNS=8.8.8.8 1.1.1.1
+Then restart systemd-resolved
+
+sudo systemctl restart systemd-resolved
+It works even after reboot :-)
+

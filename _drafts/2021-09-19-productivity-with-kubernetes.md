@@ -14,3 +14,5 @@ navigation: True
 ###### kubectx
 ###### kubens
 ###### powerlevel10k
+
+##### kubectl autocomplete
